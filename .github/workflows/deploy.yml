@@ -71,6 +71,8 @@ jobs:
         env:
           # Add any required environment variables here
           NODE_ENV: production
+          BASE_PATH: /pdfcraft
+          DISABLE_UPDATE_CHECK: "true"
 
       # Upload artifact for deployment
       - name: Upload artifact
